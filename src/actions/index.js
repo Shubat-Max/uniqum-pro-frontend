@@ -23,8 +23,8 @@ import {
 
 
 
-const APIUrl = '/api';
-// https://uniqum-pro.herokuapp.com/api
+// const APIUrl = '/api';
+const APIUrl = 'https://uniqum-pro.herokuapp.com/api';
 
 // const APIUrlReal = '/api';
 // APIUrl = APIUrlReal;
