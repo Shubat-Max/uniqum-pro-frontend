@@ -1,0 +1,96 @@
+.settings-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.settings-row {*/
+    /*color: #fff;*/
+    /*text-transform: uppercase;*/
+    /*!*text-align: center;*!*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+.settings-block table tr td {
+    /*border: 1px solid black;*/
+    color: #fff;
+}
+
+.settings-block tr {
+    height: 50px;
+    /*line-height: 40px;*/
+}
+
+.settings-block tr td:first-of-type{
+    padding-right: 30px;
+}
+
+.settings-checkbox-yes, .settings-checkbox-no {
+    padding: 10px 30px;
+    background-color: red;
+    margin-right: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.settings-checkbox-selected {
+    background-color: lime;
+}
+
+.fs-n-number {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.fs-n-number-selected {
+    color: lime;
+}
+
+.fs-select {
+    color: #000;
+}
+
+.fs-digits {
+    user-select: none;
+}
+
+.fs-save {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.fs-save span {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    animation: save-blinking 1.5s infinite;
+}
+
+.custom-select-upwards .Select-menu-outer {
+    top: auto;
+    bottom: 100%;
+}
+
+.soroban-stage {
+    animation: save-blinking 1s infinite;
+}
+
+@keyframes save-blinking{
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
+
+.fs-digits-warning {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 0.8rem;
+    color: #fff;
+}

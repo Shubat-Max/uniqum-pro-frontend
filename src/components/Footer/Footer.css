@@ -1,0 +1,87 @@
+.b_footer-wrapper, .o_footer-wrapper {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.b_footer-wrapper {
+    background: #0d47a1;
+}
+.o_footer-wrapper {
+    background: #ffd740;
+}
+
+
+.b_footer-nav, .b_footer-copy, .b_footer-media, .o_footer-nav, .o_footer-copy, .o_footer-media {
+    flex: 4 0;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.b_footer-nav, .b_footer-copy, .b_footer-media {
+    color: rgba(255, 255, 255, 0.5);
+}
+.o_footer-nav, .o_footer-copy, .o_footer-media {
+    color: #2c2c2c;
+}
+
+
+.b_footer-copy, .o_footer-copy {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.b_footer-media, .o_footer-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.b_footer-media > a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.24s ease-out;
+}
+.o_footer-media > a {
+    color: #2c2c2c;
+    transition: all 0.24s ease-out;
+}
+
+
+.b_footer-media > a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.o_footer-media > a:hover {
+    color: #828282;
+}
+
+
+.b_footer-nav-item {
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.24s ease-out;
+}
+.o_footer-nav-item {
+    display: block;
+    color: #2c2c2c;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.24s ease-out;
+}
+
+
+.b_footer-nav-item:hover {
+    color: rgb(255, 255, 255);
+}
+.o_footer-nav-item:hover {
+    color: #2c2c2c;
+}
+
+
+.footer-offset-1 {
+    flex: 1 0;
+}
+

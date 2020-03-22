@@ -1,0 +1,52 @@
+.user-bar {
+    margin: 0 10px;
+    height: 200px;
+    color: white !important;
+    font-size: 0.8rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-bar a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-avatar {
+    flex: 1 0;
+    height: 80px;
+    width: 80px;
+    /*background: white;*/
+    /*border-radius: 50%;*/
+    /*border: 2px solid rgb(227, 242, 253);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-avatar > img {
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(227, 242, 253);
+}
+
+.user-name {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.user-info:hover .user-name{
+    text-decoration: underline;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .user-bar a {
+        height: 105px;
+    }
+}

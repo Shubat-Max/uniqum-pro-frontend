@@ -1,0 +1,58 @@
+.soroban-congrats-text {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    /*background-color: hotpink;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.soroban-congrats-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    /*background-color: lightblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    perspective: 1000px;
+}
+
+.soroban-congrats-img img {
+    height: 90%;
+    animation: stick 500ms ease-in-out;
+    transform-origin: bottom center;
+}
+
+.soroban-next-step {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    /*background-color: hotpink;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes stick {
+    0% {
+        opacity: 0;
+        /*transform: translate3d(0px, 0px, 100px) rotateX(-45deg) skewY(45deg);*/
+        /*transform: scale(1.3) skew(10deg, 0deg) rotateZ(-10deg);*/
+        /*transform: skewX(45deg);*/
+
+    }
+    100% {
+        opacity: 1;
+        /*transform: translate3d(0px, 0px, 0px) rotateX(0deg) skewY(0deg);*/
+        /*transform: scale(1) skew(0deg, 0deg) rotateZ(0deg);*/
+        /*transform: skewX(0deg);*/
+    }
+}

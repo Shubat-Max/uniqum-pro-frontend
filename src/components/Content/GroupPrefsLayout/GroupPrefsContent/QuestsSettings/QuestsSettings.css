@@ -1,0 +1,87 @@
+.quest-settings-wrappper {
+    padding: 20px;
+    margin: 0 10px;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quest-settings-panel {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.quest-settings-panel:last-of-type {
+    margin-right: 0;
+}
+
+.quest-settings-head {
+    padding: 10px;
+    color: #fff;
+    background: #1161ff;
+    border: 1px solid #1161ff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.quest-settings-body {
+    padding: 10px;
+    border: 1px solid #1161ff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.quest-settings-change___btn {
+    padding: 10px 30px;
+    background: #1161ff;
+    color: #fff;
+}
+
+.quest-settings-title {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.quest-settings-edit {
+    cursor: pointer;
+    text-decoration: underline;
+    float: right;
+    color: rgba(255,255,255,1);
+    transition: 0.24s;
+    font-size: 0.8rem;
+}
+
+.quest-settings-edit:hover {
+    color: rgba(255,255,255,0.85);
+}
+
+.quest-settings-option {
+    margin-bottom: 5px;
+}
+
+.quest-settings-option:last-of-type {
+    margin-bottom: 0;
+}
+
+.quest-settings-option-title {
+    color: #676768;
+    font-size: 0.8rem;
+}
+
+.quest-settings-option-selected {
+    float: right;
+    font-weight: 700;
+    font-size: 0.8rem;
+    user-select: none;
+}
+
+.quest-settings-option-selected span {
+    margin: 0 2px;
+}
+

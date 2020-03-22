@@ -1,0 +1,29 @@
+.columns-game .menu-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.columns-game .menu-item {
+    color: #2c2c2c;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.columns-game .menu-item > a {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+
+.columns-game .menu-item > span {
+    display: inline-block;
+    padding: 10px;
+    line-height: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.columns-game .menu-item > span:hover {
+    background: dodgerblue;
+}

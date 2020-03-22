@@ -1,0 +1,48 @@
+.help-page___head {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #0d47a1;
+}
+
+.help-page___body {
+
+}
+
+.help-page___quest-block {
+    margin-bottom: 10px;
+}
+
+.help-page___quest-head {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0d47a1;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.help-page___quest-head-active {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background: #edf1f5;
+    color: #0d47a1;
+}
+
+.help-page___quest-body {
+    padding: 20px;
+    margin: 0 10px;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

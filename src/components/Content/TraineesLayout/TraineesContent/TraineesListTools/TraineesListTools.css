@@ -1,0 +1,20 @@
+.trainee-list-tools {
+    padding-bottom: 20px;
+}
+
+.add-trainee___btn {
+    background: rgb(251, 244, 255);
+    color: #646566;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    transition: 0.24s;
+    font-size: 0.8rem;
+}
+
+.add-trainee___btn:hover {
+    /*background: #0e52d8;*/
+    /*color: rgba(255, 255, 255, 1);*/
+    border: 1px solid #b6babe;
+}

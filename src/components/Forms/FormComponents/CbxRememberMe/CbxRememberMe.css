@@ -1,0 +1,15 @@
+.cbx-remember-me {
+    flex: 1;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.cbx-remember-me > input, .cbx-remember-me > span {
+    vertical-align: middle;
+}
+
+.cbx-remember-me > span {
+    cursor: pointer;
+}

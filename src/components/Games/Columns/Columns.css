@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #532791;
+}
+
+.columns-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.columns-navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1003;
+    background-color: #532791;
+    height: 70px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 900px;
+}
+
+.columns-title {
+    flex: 1;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 10px 0 rgba(0, 0, 0, 0.7);
+    user-select: none;
+}
+
+.columns-body {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: calc(100% - 70px);
+}
+
+.columns-segments {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    /*min-height: 812px;*/
+    /*IE fix*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: linear-gradient(#532791, #fff176);
+}
+
+.columns-segments > .block-col-side {
+    flex: 0 1 16.6666%;
+    /*16.6666*/
+}
+
+.columns-segments > .block-col-main {
+    flex: 1 0 66.6664%;
+    min-height: 100%;
+    min-width: 900px;
+    /*66.6664*/
+}
+
+.columns-segments > .block-col-side:first-of-type, .columns-segments > .block-col-side:last-of-type {
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.columns-segments > .block-col-side:first-of-type {
+    background-position: right bottom;
+    background-color: transparent;
+    /*background-image: url('/assets/img/cop-rabbid-sticker.png'), linear-gradient(#532791, #fff176);*/
+    background-image: url('/assets/img/vinniepooh.png'), linear-gradient(#532791, #fff176);
+    /*
+    background-image: url('/img/cop-rabbid-sticker.png');
+    background-image: url('/img/cop-rabbid-sticker.png'), linear-gradient(#532791 15%, #faf526 30%, #fa2c8e);
+    */
+}
+
+.columns-segments > .block-col-side:last-of-type {
+    background-position: left bottom;
+    background-color: transparent;
+    /*background-image: url('/assets/img/jump-rabbid-sticker.png'), linear-gradient(#532791, #fff176);*/
+    background-image: url('/assets/img/pyatochek.png'), linear-gradient(#532791, #fff176);
+    /*
+    background-image: url('/img/jump-rabbid-sticker.png');
+    background-image: url('/img/jump-rabbid-sticker.png'), linear-gradient(#532791, #fa2c8e);
+    background-image: url('/img/cop-rabbid-sticker.png'), linear-gradient(#532791 15%, #faf526 30%, #fa2c8e);
+    */
+}
+
+.columns-game-wrapper {
+    position: relative;
+    width: 100%;
+    /*min-height: 100%;*/
+    height: 100%;
+    /*
+    border-right: 10px solid #ffa726;
+    border-left: 10px solid #ffa726;
+    border-right: 5px solid #532791;
+    border-left: 5px solid #532791;
+    */
+    box-shadow: 0 0 20px 2px #532791;
+    background-color: #ffffe0;
+    display: flex;
+}
+
+.columns-game {
+    width: 100%;
+    margin: 5px;
+    /*height: calc(100% - 10px);*/
+    border-radius: 3px;
+    /*background-color: #3f51b5;*/
+    background-color: #ffffe0;
+    /*background-color: #1e88e5;*/
+    /*background-color: #2979ff;*/
+}
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .columns-segments > .block-col-side:first-of-type {
+        background-image: url('/assets/img/cop-rabbid-sticker.png');
+    }
+
+    .columns-segments > .block-col-side:last-of-type {
+        background-image: url('/assets/img/jump-rabbid-sticker.png');
+    }
+}

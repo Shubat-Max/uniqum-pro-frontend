@@ -1,0 +1,265 @@
+.main-block___head {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #0d47a1;
+}
+
+.edit-group-prefs___tools {
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.edit-group-prefs___submit {
+    padding: 10px;
+    background: #0d58e8;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.edit-group-prefs___settings-block {
+    margin-bottom: 10px;
+}
+
+.edit-group-prefs___settings-block:last-of-type {
+    margin-bottom: 0;
+}
+
+.edit-group-prefs___settings-head {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0d47a1;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.edit-group-prefs___settings-head-active {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background: #edf1f5;
+    color: #0d47a1;
+}
+
+.edit-group-prefs___settings-body {
+    padding: 20px;
+    margin: 0 10px;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.edit-group-prefs___npt-lbl {
+    font-size: 0.9rem;
+    color: #646566;
+    padding-bottom: 5px;
+}
+
+.edit-group-prefs___npt {
+    border: 2px solid #DDD;
+    padding: 5px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.edit-group-prefs___no-parts {
+    background: #fff9c4;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+.edit-group-prefs___parts-group {
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+}
+
+.edit-group-prefs___part {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    position:static;
+}
+
+.edit-group-prefs___part:last-of-type {
+    border-bottom: none;
+}
+
+.edit-group-prefs___part:hover {
+    background: rgba(0,0,0,.075);
+}
+
+/* REMOVE USER BUTTON STYLES */
+.edit-group-prefs___dismiss-part {
+    background: #ef9a9a;
+    border: 1px solid #ef9a9a;
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: -5px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.24s;
+    cursor: pointer;
+}
+
+.edit-group-prefs___dismiss-part:hover {
+    background: rgb(251, 244, 255);
+    border: 1px solid #dee2e6;
+}
+
+.edit-group-prefs___dismiss-part:hover span::before,
+.edit-group-prefs___dismiss-part:hover span::after {
+    background-color: #96999d;
+}
+
+.edit-group-prefs___dismiss-part span,
+.edit-group-prefs___dismiss-part span::before,
+.edit-group-prefs___dismiss-part span::after {
+    width: 15px;
+    height: 0;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.edit-group-prefs___dismiss-part span::before,
+.edit-group-prefs___dismiss-part span::after {
+    content: '';
+    display: block;
+    height: 2px;
+}
+.edit-group-prefs___dismiss-part span::before {
+    transform: translateY(-1px) rotate(-45deg);
+}
+.edit-group-prefs___dismiss-part span::after {
+    transform: translateY(-3px) rotate(45deg);
+}
+
+/* ADD USER BUTTON STYLES */
+.edit-group-prefs___add-part {
+    background: #c8e6c9;
+    border: 1px solid #c8e6c9;
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: -5px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.24s;
+    cursor: pointer;
+}
+
+.edit-group-prefs___add-part:hover {
+    background: rgb(251, 244, 255);
+    border: 1px solid #dee2e6;
+}
+
+.edit-group-prefs___add-part:hover span::before,
+.edit-group-prefs___add-part:hover span::after {
+    background-color: #96999d;
+}
+
+.edit-group-prefs___add-part span,
+.edit-group-prefs___add-part span::before,
+.edit-group-prefs___add-part span::after {
+    width: 15px;
+    height: 0;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.edit-group-prefs___add-part span::before,
+.edit-group-prefs___add-part span::after {
+    content: '';
+    display: block;
+    height: 2px;
+}
+.edit-group-prefs___add-part span::before {
+    transform: translateY(-1px) rotate(-90deg);
+}
+.edit-group-prefs___add-part span::after {
+    transform: translateY(-3px);
+}
+
+/* RELOCATE USER BUTTON STYLES */
+.edit-group-prefs___relocate-part {
+    background: #bbdefb;
+    border: 1px solid #bbdefb;
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: -5px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.24s;
+    cursor: pointer;
+}
+
+.edit-group-prefs___relocate-part:hover {
+    background: rgb(251, 244, 255);
+    border: 1px solid #dee2e6;
+}
+
+.edit-group-prefs___relocate-part:hover span,
+.edit-group-prefs___relocate-part:hover span::before,
+.edit-group-prefs___relocate-part:hover span::after {
+    background-color: #96999d;
+}
+
+.edit-group-prefs___relocate-part span,
+.edit-group-prefs___relocate-part span::before,
+.edit-group-prefs___relocate-part span::after {
+    content: '';
+    width: 10px;
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.edit-group-prefs___relocate-part span {
+    width: 15px;
+}
+
+.edit-group-prefs___relocate-part span {
+    transform: translateY(-1px);
+}
+.edit-group-prefs___relocate-part span::before {
+    transform: translate(5px, 0px) rotate(45deg);
+    transform-origin: bottom right;
+}
+.edit-group-prefs___relocate-part span::after {
+    transform: translate(5px, -2px) rotate(-45deg);
+    transform-origin: top right;
+}
+
+.edit-group-prefs___delete-group {
+    margin-top: 10px;
+}
+.edit-group-prefs___delete-group span {
+    font-size: 0.9rem;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}

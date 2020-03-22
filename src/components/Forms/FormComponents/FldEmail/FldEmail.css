@@ -1,0 +1,14 @@
+.fld-email-lbl {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #0d47a1;
+}
+
+.fld-email-npt {
+    border: 2px solid #DDD;
+    padding: 5px;
+    margin: 0 0 20px 0;
+    width: 400px;
+    border-radius: 3px;
+}

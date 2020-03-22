@@ -1,0 +1,187 @@
+/*widget trainer group*/
+.widget-tg {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+}
+
+.widget-tg-header, .widget-tiu-header, .widget-tcg-header {
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: rgb(251, 244, 255);
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.widget-tg-list {
+    max-height: 265px;
+    overflow-y: auto;
+}
+
+.widget-tg-list-row {
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.widget-tg-list-row:not(:last-of-type) {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.widget-tg-list-item {
+    font-size: 0.9rem;
+}
+
+.widget-tg-list-item:nth-of-type(1) {
+    flex: 5 0;
+    text-align: left;
+    line-height: 27px;
+}
+
+.widget-tg-list-item a {
+    text-decoration: none;
+}
+
+.widget-tg-list-item:nth-of-type(1) a:hover {
+    text-decoration: underline;
+}
+
+.widget-tg-list-item:nth-of-type(2), .widget-tg-list-item:nth-of-type(3) {
+    flex: 1 0;
+    text-align: right;
+    padding: 5px 0;
+}
+
+.widget-tg-well {
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+    background: rgb(251, 244, 255);
+    font-size: 0.8rem;
+    color: #646566;
+}
+
+.widget-tg-well:hover {
+    border: 1px solid #b6babe;
+}
+
+.widget-tg-no-items {
+    line-height: 27px;
+    font-size: 0.9rem;
+    color: #646566;
+    padding: 10px;
+    background: #fff9c4;
+}
+
+
+
+
+
+.widget-col-2 {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+/*widget trainer invite user*/
+/*widget trainer create group*/
+.widget-tcg, .widget-tiu {
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+}
+
+.widget-tiu-body, .widget-tcg-body {
+    display: flex;
+    flex-flow: column;
+}
+
+.widget-tcg-npt-block, .widget-tiu-npt-block, .widget-tiu-attention,
+.widget-tcg-notification, .widget-tiu-notification {
+    flex: 0 0 100%;
+    padding: 0 10px 10px 10px;
+}
+
+.widget-tcg-npt-block:first-of-type, .widget-tiu-npt-block:first-of-type, .widget-tiu-attention:first-of-type,
+.widget-tcg-notification:first-of-type,
+.widget-tiu-notification:first-of-type {
+    margin-top: 10px;
+}
+
+.widget-tiu-attention {
+    font-size: 0.7rem;
+}
+
+.widget-tcg-controls, .widget-tiu-controls {
+    flex: 0 0 100%;
+    padding: 0 10px 10px 10px;
+}
+
+.widget-tcg-controls-item, .widget-tiu-controls-item{
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 0.8rem;
+    cursor: pointer;
+    background: rgb(251, 244, 255);
+    color: #646566;
+}
+
+.widget-tcg-controls-item:hover, .widget-tiu-controls-item:hover {
+    border: 1px solid #b6babe;
+}
+
+.widget-tcg-npt-block label, .widget-tiu-npt-block label {
+    display: block;
+    font-size: 0.9rem;
+    color: #646566;
+    padding-bottom: 5px;
+}
+
+.widget-tcg-npt-block input, .widget-tiu-npt-block input {
+    width: calc(100% - 13px);
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.widget-tcg-notification-body, .widget-tiu-notification-body {
+    font-size: 0.8rem;
+    border-radius: 3px;
+    /*border: 1px solid #DDD;*/
+    padding: 5px;
+    color: #646566;
+}
+
+.widget-notification-green {
+    background: #dcedc8;
+}
+
+.widget-notification-red {
+    background: #ffcdd2;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .widget-tiu-controls, .widget-tiu-attention, .widget-tiu-npt-block{
+        flex: none;
+    }
+
+    .widget-tcg-controls, .widget-tcg-npt-block{
+        flex: none;
+    }
+}

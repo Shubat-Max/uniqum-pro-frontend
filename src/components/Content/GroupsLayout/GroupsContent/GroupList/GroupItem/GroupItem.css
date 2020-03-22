@@ -1,0 +1,30 @@
+.group-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    height: 50px;
+    line-height: 50px;
+    transition: .24s;
+    font-size: 0.95rem;
+}
+
+.group-item:hover{
+    background: rgba(0,0,0,.075);
+}
+
+.group-item-placeholder {
+    padding: 0 10px;
+}
+
+.group-item-placeholder:nth-of-type(1){
+    flex: 3;
+}
+.group-item-placeholder:nth-of-type(2){
+    flex: 1;
+}
+.group-item-placeholder:nth-of-type(3), .group-item-placeholder:nth-of-type(4){
+    flex: 2;
+}

@@ -1,0 +1,97 @@
+.add-user___modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+
+
+.add-user___controls {
+    padding: 0 20px;
+}
+
+.add-user___submit {
+    padding: 10px;
+    background: #0d58e8;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.add-user___cancel {
+    padding: 10px;
+    background: #ff6b70;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.add-user___block {
+    background: white;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.add-user___block-header {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    color: black
+}
+
+.add-user___block-body {
+    padding: 20px;
+}
+
+.add-user___npt-block:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.add-user___npt-lbl {
+    font-size: 0.9rem;
+    color: #646566;
+    padding-bottom: 5px;
+}
+
+.add-user___npt {
+    border: 2px solid #DDD;
+    padding: 5px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.add-user___notification-green, .add-user___notification-red {
+    display: flex;
+    background: #dcedc8;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: .8rem;
+    margin-bottom: 20px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+.add-user___notification-green {
+    background: #dcedc8;
+    color: #646566;
+}
+
+.add-user___notification-red {
+    background: #ff6b70;
+    color: #fff;
+}

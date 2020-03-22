@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/PressStart2P.eot'); /* IE9 Compat Modes */
+    src: local('Press Start 2P'), local('PressStart2P'),
+        url('/assets/fonts/PressStart2P.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/assets/fonts/PressStart2P.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/assets/fonts/PressStart2P.woff') format('woff'), /* Modern Browsers */
+        url('/assets/fonts/PressStart2P.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/assets/fonts/PressStart2P.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.no-select {
+    user-select: none;
+}
+

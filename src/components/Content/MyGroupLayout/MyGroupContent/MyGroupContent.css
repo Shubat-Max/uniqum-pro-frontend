@@ -1,0 +1,105 @@
+.row {
+    display: flex;
+}
+
+.col-4 {
+    flex: 1 0 33.3333%;
+}
+
+.col-8 {
+    flex: 1 0 66.6667%;
+}
+
+.col-6 {
+    flex: 1 0 50%;
+}
+
+.mg-trainer-widget {
+    margin-bottom: 20px;
+}
+
+.mg-stats-widget {
+}
+
+.mg-groupmates-widget {
+    margin-left: 20px;
+}
+
+.mg-trainer-widget, .mg-stats-widget, .mg-groupmates-widget {
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+}
+
+.mg-trainer-widget-header, .mg-groupmates-widget-header, .mg-stats-widget-header {
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: rgb(251, 244, 255);
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.mg-trainer-widget-body {
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+}
+
+.mg-trainer-widget-body:hover {
+    background: rgba(251, 244, 255);
+}
+
+
+.mg-trainer-widget-avatar {
+    flex: 1;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.mg-trainer-widget-name {
+    flex: 12;
+    padding-left: 10px;
+    color: #646566;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.mg-trainer-widget-info {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.mg-groupmates-widget-mates-head, .mg-groupmates-widget-mates {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.mg-groupmates-widget-mates-head > span, .mg-groupmates-widget-mates > span {
+    display: inline-block;
+    flex: 1;
+}
+
+.mg-groupmates-widget-mates-head > span:first-of-type, .mg-groupmates-widget-mates > span:first-of-type,
+.mg-groupmates-widget-mates-head > span:last-of-type, .mg-groupmates-widget-mates > span:last-of-type {
+    /*flex: 2;*/
+}
+
+.mg-groupmates-widget-body {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

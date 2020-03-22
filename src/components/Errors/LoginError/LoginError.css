@@ -1,0 +1,46 @@
+.login-error {
+    display: flex;
+    background: #ff6b70;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 20px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+
+.login-error-controls {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-error-hide {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.login-error-hide span::before, .login-error-hide span::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: #fff;
+}
+
+.login-error-hide span::before {
+    transform: rotate(45deg);
+}
+
+.login-error-hide span::after {
+    margin-top: -2px;
+    transform: rotate(-45deg);
+}
+
+.login-error-label {
+    flex: 20;
+    padding-right: 10px;
+}
