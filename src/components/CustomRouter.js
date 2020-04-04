@@ -14,6 +14,9 @@ class CustomRouter extends Component {
     render(){
         return (
             <div>
+                {/* 404 */}
+                {/*<Route exact path="*" render={() => this.getMainGate()}/>*/}
+
                 <Route exact path="/" render={() => this.getMainGate()}/>
                 <Route exact path = "/login" component={LoginPage} />
                 <Route exact path = "/confirm/:id"    render={this.getConfirmationPage} />
