@@ -3,11 +3,9 @@ import thunk from 'redux-thunk';
 
 import reducers from '../reducers';
 import randomid from '../middlewares/randomid'
-// import api from '../middlewares/api'
 
 const enhancer = applyMiddleware(
     thunk,
-    // api,
     randomid
 );
 
@@ -18,6 +16,6 @@ const store = createStore(
 );
 
 //dev only
-window.store = store;
+// window.store = store;
 
 export default store;
