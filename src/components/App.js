@@ -2,11 +2,12 @@ import React from "react";
 import { configureStore } from "../store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-
 import "./App.css";
+import "normalize.css";
+
 import CustomRouter from "./CustomRouter";
 
-function App() {
+const App = () => {
   const store = configureStore();
 
   return (
@@ -16,6 +17,6 @@ function App() {
       </BrowserRouter>
     </Provider>
   );
-}
+};
 
 export default App;

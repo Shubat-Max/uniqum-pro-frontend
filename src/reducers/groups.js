@@ -20,18 +20,18 @@ const GroupRecord = Record({
     count: null,
     ownedBy: null,
     gameSettings: {
-        flash: {
-            n: {
-                1: true,
-                2: true,
-                3: true,
-                4: true,
-                5: true,
-                6: true,
-                7: true,
-                8: true,
-                9: true,
-                0: true
+        flash: {            // Default settings for Flash game
+            n: {            // Numbers involved into the game
+                1: true,    // If number 1 included
+                2: true,    // If number 2 included
+                3: true,    // If number 3 included
+                4: true,    // If number 4 included
+                5: true,    // If number 5 included
+                6: true,    // If number 6 included
+                7: true,    // If number 7 included
+                8: true,    // If number 8 included
+                9: true,    // If number 9 included
+                0: true     // If number 0 included
             },
             ns: 2,
             pns: false,
@@ -61,7 +61,6 @@ export default ( groups = defaultGroups, action) => {
     switch (type) {
         case LOAD_ALL_GROUPS:
             return groups;
-            // return groups.update('entities', entities => entities.merge(arrToMap(templateGroups, GroupRecord )));
 
         case ADD_GROUP:
             return groups.setIn(['entities', randomId], new GroupRecord({id:randomId, ...payload}));
