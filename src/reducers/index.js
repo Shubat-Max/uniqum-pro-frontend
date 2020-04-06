@@ -1,10 +1,15 @@
-import { combineReducers } from 'redux';
-import groups from './groups';
-import users from './users';
-import system from './system';
+import { combineReducers } from "redux";
+import groups from "./groups";
+import users from "./users";
+import system from "./system";
 
-export default combineReducers({
-    groups,
-    users,
-    system
+/**
+ * Root reducer creator
+ */
+const rootReducer = combineReducers({
+  users,
+  groups,
+  system
 });
+
+export default rootReducer;
